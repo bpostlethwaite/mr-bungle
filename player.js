@@ -23,6 +23,9 @@ function Player () {
 
     function play (file) {
         var lastplayer = mplayer;
+        var args = [ '-slave' ];
+        if (file.substr(0,4) === 'http') args = ['-slave', '-playlist', file];
+        else args = [ '-slave', file ];
 
         if (!file) throw new Error ('must supply a file to play');
         if ('killed' in mplayer && !mplayer.killed) {
@@ -31,7 +34,7 @@ function Player () {
                 lastplayer.kill('SIGHUP');
             });
         }
-        mplayer = spawn( 'mplayer', [ '-slave', file ] );
+        mplayer = spawn( 'mplayer', args );
     }
 
 

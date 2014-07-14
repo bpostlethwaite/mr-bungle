@@ -3,11 +3,33 @@
     {
       "name": "Q",
       "feed": "http://www.cbc.ca/podcasting/includes/qpodcast.xml",
-      "rss-link-key": "permalink",
-      "items": []
+      "itemLink": "permalink",
+      "itemName": "title",
+      "items": [
+        {
+          "name": "Superwoman Lilly Singh, defending difficult literature,  Shad performs 07/11/2014",
+          "url": "http://podcast.cbc.ca/mp3/podcasts/qpodcast_20140711_33811.mp3",
+          "path": ""
+        },
+        {
+          "name": "Superwoman Lilly Singh, defending difficult literature,  Shad performs 07/11/2014",
+          "url": "http://podcast.cbc.ca/mp3/podcasts/qpodcast_20140711_33422.mp3",
+          "path": ""
+        },
+        {
+          "name": "The meaning of 'Carioca', comic Hari Kondabolu, Iceland's hidden folk 07/10/2014",
+          "url": "http://podcast.cbc.ca/mp3/podcasts/qpodcast_20140710_29851.mp3",
+          "path": ""
+        },
+        {
+          "name": "Crossfit pros and cons, Sammy Davis Jr.'s daughter, birth photography 07/09/2014",
+          "url": "http://podcast.cbc.ca/mp3/podcasts/qpodcast_20140709_60231.mp3",
+          "path": ""
+        }
+      ]
     }
   ],
-  "radio" : {
+  "radio": {
     "name": "CBC Radio 1",
     "channels": {
       "Calgary": "http://playerservices.streamtheworld.com/pls/CBC_R1_CGY_H.pls",
