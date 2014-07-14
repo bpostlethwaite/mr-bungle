@@ -1,0 +1,24 @@
+{
+  "podcasts": [
+    {
+      "name": "Q",
+      "feed": "http://www.cbc.ca/podcasting/includes/qpodcast.xml",
+      "rss-link-key": "permalink",
+      "items": []
+    }
+  ],
+  "radio" : {
+    "name": "CBC Radio 1",
+    "channels": {
+      "Calgary": "http://playerservices.streamtheworld.com/pls/CBC_R1_CGY_H.pls",
+      "Iqaluit": "http://playerservices.streamtheworld.com/pls/CBC_R1_IQA_H.pls",
+      "Montreal": "http://playerservices.streamtheworld.com/pls/CBC_R1_MTL_H.pls",
+      "Ottawa": "http://playerservices.streamtheworld.com/pls/CBC_R1_OTT_H.pls",
+      "Regina": "http://playerservices.streamtheworld.com/pls/CBC_R1_REG_H.pls",
+      "Toronto": "http://playerservices.streamtheworld.com/pls/CBC_R1_TOR_H.pls",
+      "Vancouver": "http://playerservices.streamtheworld.com/pls/CBC_R1_VCR_H.pls",
+      "Winnipeg": "http://playerservices.streamtheworld.com/pls/CBC_R1_WPG_H.pls",
+      "Yellowknife": "http://playerservices.streamtheworld.com/pls/CBC_R1_YKN_H.pls"
+    }
+  }
+}
